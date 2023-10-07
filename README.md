@@ -10,4 +10,10 @@ Deeply merge multiple XML files into one file. Originally used to merge a GCP re
 npx @sesamecare-oss/xml-deep-merge file1.xml file2.xml file3.xml -o merged.xml
 ```
 
-Voila.
+In Maven, certain elements must only occur once. You can accomplish this via the `-s` argument (or `-singleChildPath`).
+
+```bash
+npx @sesamecare-oss/xml-deep-merge pom.xml deps.xml -o merged.xml -s project.dependencies -s project.build
+```
+
+This will combine the multiple instances of project.dependencies and project.build into a single node in the output.
