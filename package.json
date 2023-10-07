@@ -26,9 +26,6 @@
     "type": "git",
     "url": "git+https://github.com/sesamecare/xml-deep-merge.git"
   },
-  "publishConfig": {
-    "registry": "https://us-central1-npm.pkg.dev/sesame-care-dev/npm-packages"
-  },
   "release": {
     "branches": [
       "main"
