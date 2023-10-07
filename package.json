@@ -1,0 +1,75 @@
+{
+  "name": "@sesamecare-oss/xml-deep-merge",
+  "version": "1.0.0",
+  "description": "Deeply merge multiple XML files",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "Developers <developers@sesamecare.com>",
+  "license": "UNLICENSED",
+  "packageManager": "yarn@3.6.4",
+  "bin": "./build/bin/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && yarn dlx glob-chmod 755 build/bin/*",
+    "clean": "yarn dlx rimraf ./dist",
+    "lint": "eslint .",
+    "postinstall": "coconfig",
+    "test": "vitest"
+  },
+  "keywords": [
+    "typescript",
+    "sesame",
+    "xml",
+    "openapi",
+    "maven"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sesamecare/xml-deep-merge.git"
+  },
+  "publishConfig": {
+    "registry": "https://us-central1-npm.pkg.dev/sesame-care-dev/npm-packages"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "yarn dlx pinst --disable"
+        }
+      ],
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  },
+  "config": {
+    "coconfig": "@openapi-typescript-infra/coconfig"
+  },
+  "devDependencies": {
+    "@openapi-typescript-infra/coconfig": "^4.2.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/minimist": "^1.2.3",
+    "@types/node": "^20.8.3",
+    "@types/xml2js": "^0.4.12",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "coconfig": "^0.13.3",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.28.1",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "xml2js": "^0.6.2"
+  }
+}
