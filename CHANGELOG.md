@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/sesamecare/xml-deep-merge/compare/v1.1.1...v1.1.2) (2023-10-07)
+
+
+### Bug Fixes
+
+* **args:** fix up aliases to be more succint and access them properly ([0d822d4](https://github.com/sesamecare/xml-deep-merge/commit/0d822d4f683827d0f01e84ef277a290f48b5d1ac))
+
 ## [1.1.1](https://github.com/sesamecare/xml-deep-merge/compare/v1.1.0...v1.1.1) (2023-10-07)
 
 
