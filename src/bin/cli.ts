@@ -19,6 +19,7 @@ const argv = minimist(process.argv.slice(2), {
   alias: {
     output: 'o',
     singleChildPaths: 's',
+    singleChildPath: 's',
   },
 });
 
