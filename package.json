@@ -1,6 +1,6 @@
 {
   "name": "@sesamecare-oss/xml-deep-merge",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Deeply merge multiple XML files",
   "main": "build/index.js",
   "types": "build/index.d.ts",

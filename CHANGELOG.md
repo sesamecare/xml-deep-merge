@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/sesamecare/xml-deep-merge/compare/v1.0.2...v1.1.0) (2023-10-07)
+
+
+### Features
+
+* **single:** allow merging of selected paths into single child element ([1ad49e2](https://github.com/sesamecare/xml-deep-merge/commit/1ad49e25443e3a605c8ddcd81772ae928742bad7))
+
 ## [1.0.2](https://github.com/sesamecare/xml-deep-merge/compare/v1.0.1...v1.0.2) (2023-10-07)
 
 
