@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/sesamecare/xml-deep-merge/compare/v1.1.0...v1.1.1) (2023-10-07)
+
+
+### Bug Fixes
+
+* **single:** alias plural and singlular form of arg ([41d5510](https://github.com/sesamecare/xml-deep-merge/commit/41d55103f7d22adc0d816142123dcc192a0f3671))
+
 # [1.1.0](https://github.com/sesamecare/xml-deep-merge/compare/v1.0.2...v1.1.0) (2023-10-07)
 
 
