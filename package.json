@@ -26,6 +26,9 @@
     "type": "git",
     "url": "git+https://github.com/sesamecare/xml-deep-merge.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "branches": [
       "main"
