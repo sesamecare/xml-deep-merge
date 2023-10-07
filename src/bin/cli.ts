@@ -18,12 +18,11 @@ function argAsArray(v: string | string[] | undefined) {
 const argv = minimist(process.argv.slice(2), {
   alias: {
     output: 'o',
-    singleChildPaths: 's',
     singleChildPath: 's',
   },
 });
 
-mergeXMLFiles(argv._, argAsArray(argv.singleChildPaths))
+mergeXMLFiles(argv._, argAsArray(argv.singleChildPath))
   .then(async (mergedXML) => {
     // Write the merged XML to a new file
     await fs.writeFile(argv.o, mergedXML);
