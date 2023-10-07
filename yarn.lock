@@ -444,6 +444,8 @@ __metadata:
     typescript: ^5.2.2
     vitest: ^0.34.6
     xml2js: ^0.6.2
+  bin:
+    xml-deep-merge: ./build/bin/cli.js
   languageName: unknown
   linkType: soft
 
