@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sesamecare/xml-deep-merge/compare/v1.0.0...v1.0.1) (2023-10-07)
+
+
+### Bug Fixes
+
+* **build:** oops - use public registry ([af9e315](https://github.com/sesamecare/xml-deep-merge/commit/af9e31581553fc12f532228d43d321dd4a31ada7))
+
 # 1.0.0 (2023-10-07)
 
 
