@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/sesamecare/xml-deep-merge/compare/v1.1.2...v1.1.3) (2024-02-14)
+
+
+### Reverts
+
+* Revert "PI-3857 - ensure PR title contains jira ticket number (#1)" (#2) ([27cbfc8](https://github.com/sesamecare/xml-deep-merge/commit/27cbfc812987060b1f7df6b485382bb172e3dbe8)), closes [#1](https://github.com/sesamecare/xml-deep-merge/issues/1) [#2](https://github.com/sesamecare/xml-deep-merge/issues/2)
+
 ## [1.1.2](https://github.com/sesamecare/xml-deep-merge/compare/v1.1.1...v1.1.2) (2023-10-07)
 
 
